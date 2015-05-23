@@ -1,0 +1,70 @@
+#container {
+    width:      100%; // width of the entire container for the wall
+}
+.brick {
+   width: 200px;
+  padding: 1px;
+}
+#pop_up, #popup2, .bMulti {
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 25px 5px #999;
+  color: #111;
+  display: none;
+  min-width: 550px;
+  padding: 25px;
+  top:25px;
+}
+.button.b-close, .button.bClose {
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: none;
+  font: bold 131% sans-serif;
+  padding: 0 6px 2px;
+  position: absolute;
+  right: -7px;
+  top: -7px;
+}
+.button {
+  background-color: #2b91af;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+#pop_up, .bMulti {
+  min-height: 250px;
+}
+.comment  {
+  font-size: 14px;
+  margin-bottom:10px;
+}
+#comment {
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  margin-bottom: -18px;
+}
+.rating_bar {
+    width: 80px;
+    height: 16px;
+    background: url(../img/stars.png);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    text-align: left;
+}
+.rating {
+    height: 16px;
+    background: url(../img/stars.png);
+    background-position: 0 -16px;
+    background-repeat: repeat-x;
+}
+.com-name, .com-comment {
+  font-size: 14px;
+}
+.feed-img{
+  cursor: pointer;
+}
